@@ -1,0 +1,16 @@
+.bubble {
+    animation: bubble-animation 1s infinite;
+  }
+  
+  @keyframes bubble-animation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
